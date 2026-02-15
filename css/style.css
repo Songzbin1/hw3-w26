@@ -33,8 +33,8 @@ links in the navigation are in the hover or focus state.*/
      grid-column: 1/-1;
      background-image: url("../images/header.jpg");
      background-repeat: no-repeat;
-     background-size: cover;
-     background-position: center;
+     /* background-size: cover;
+     background-position: center; */
 }
 /*Write selector/rule property to add the background image to the first div in the grid and place it in the grid. */
 
@@ -89,19 +89,15 @@ links in the navigation are in the hover or focus state.*/
 .contact-image{
      grid-row: 6;
 }
-.accounts-image img,
-.onlinebanking-image img,
-.security-image img,
-.loans-image img,
-.contact-image img{
+div img{
      width: 100%;
      height: 100%;
-     object-fit: cover;
-     display: block;
+     /* object-fit: cover;
+     display: block; */
 }
  /* Step 8: Write the selector/rule property to style the .text-block class. */
 .text-block{
-     display: grid;
+     /* display: grid; */
      place-items: center;
      text-align: center;
      align-self: center;
