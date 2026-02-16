@@ -72,7 +72,7 @@ links in the navigation are in the hover or focus state.*/
 .contact-image{
      grid-column: 1/-1;
      max-height: 675px;
-     overflow:hidden
+     overflow:hidden;
 }
 .accounts-image{
      grid-row: 2;
