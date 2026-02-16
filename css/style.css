@@ -97,7 +97,7 @@ div img{
 }
  /* Step 8: Write the selector/rule property to style the .text-block class. */
 .text-block{
-     /* display: grid; */
+     display: grid;
      place-items: center;
      text-align: center;
      align-self: center;
